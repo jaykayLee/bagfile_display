@@ -1,0 +1,40 @@
+statVectorType 1
+verbose 0
+maxNumPoints 1000
+maxNumTracks 100
+initialRadialVelocity 2.00
+maxRadialVelocity 5.29
+radialVelocityResolution 0.08
+maxAcceleration 0.90 0.90 0.90
+deltaT 0.05
+gatingParams.gain 2
+gatingParams.limits.depth 3.0
+gatingParams.limits.width 2.0
+gatingParams.limits.height 2.0
+gatingParams.limits.vel 0.0
+allocParams.snrThre 100.0
+allocParams.snrThreObscured 100.0
+allocParams.velocityThre 0.5
+allocParams.pointsThre 5
+allocParams.maxDistanceThre 1.0
+allocParams.maxVelThre 3
+stateParams.det2actThre 3
+stateParams.det2freeThre 5
+stateParams.active2freeThre 40
+stateParams.static2freeThre  5
+stateParams.exit2freeThre 5
+stateParams.sleep2freeThre 1000
+sceneryParams.sensorPosition 0.0 0.0 1.5
+sceneryParams.sensorOrientation 0.0 0.0
+sceneryParams.numBoundaryBoxes 1
+sceneryParams.boundaryBox0 -30.0 30.0 0.5 100.0 -3.0 8.0
+sceneryParams.boundaryBox1 0.0 0.0 0.0 0.0 0.0 0.0
+sceneryParams.numStaticBoxes 1
+sceneryParams.staticBox0  -30.0 30.0 0.5 100.0 -3.0 8.0
+sceneryParams.staticBox1 0.0 0.0 0.0 0.0 0.0 0.0
+presenceParams.pointsThre 0
+presenceParams.velocityThre 0
+presenceParams.on2offThre 0
+presenceParams.numOccupancyBoxes 0
+presenceParams.occupancyBox0 0.0 0.0 0.0 0.0 0.0 0.0
+presenceParams.occupancyBox1 0.0 0.0 0.0 0.0 0.0 0.0

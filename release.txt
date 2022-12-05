@@ -1,0 +1,21 @@
+[[ SRS simulator ]]
+
+* 20220331 : srssim.gt_220331.zip
+  -- add class SRViewWidget 
+       - normal mode is previous (ROS VIEW) mode
+       - clip mode(Watch PC) is used for selecting point cloud area
+	 and connected main window by signal functions.
+       mouse-right-click : switch normal and clip mode ( alternative )
+       mouse-left-press/move/up :  in case of clip mode
+                create red box for selecting point cloud
+                when up, send click signal to main_win
+                main_win update point data of data_win
+
+* 20220323 : srssim.gt_220323.zip
+  -- add data view in case of Next/Prev operation
+
+* 20220317 : srssim.mp_220317.zip
+  -- changed  multi process and thread for avoiding Python GIL
+
+* 20220308 :  srssim_220308_aat.zip 
+  -- initial code, operate by multi thread

@@ -1,0 +1,113 @@
+{
+  "state_vector_type": 1,
+  "verbose": 0,
+  "max_num_point": 1000,
+  "max_num_track": 100,
+  "initial_radial_velocity": 0.00,
+  "max_radial_velocity": 5.29,
+  "radial_velocity_resolution": 0.08,
+  "max_accellation": [
+    0.90,
+    0.90,
+    0.90
+  ],
+  "delta_t": 0.05,
+  "adv_params": {
+    "gating_params": {
+      "gain": 2.00,
+      "depth": 3.00,
+      "width": 2.00,
+      "height": 2.00,
+      "vel": 0.00
+    },
+    "allocation_params": {
+      "snr_thre": 100.00,
+      "snr_thre_obscured": 100.00,
+      "velocity_thre": 0.50,
+      "points_thre": 5,
+      "maxdistance_thre": 1.00,
+      "maxvel_thre": 2.00
+    },
+    "state_params": {
+      "det2act_thre": 3,
+      "det2free_thre": 3,
+      "active2free_thre": 5,
+      "static2free_thre": 40,
+      "exit2free_thre": 5,
+      "sleep2free_thre": 1000
+    },
+    "scenary_params": {
+      "sensor_position": {
+        "x": 0.00,
+        "y": 0.00,
+        "z": 1.50
+      },
+      "sensor_orientation": {
+        "azim_tilt": 0.00,
+        "elev_tilt": 0.00
+      },
+      "num_boundary_boxes": 1,
+      "boundary_box": [
+        {
+          "x1": -30.00,
+          "x2": 30.00,
+          "y1": 0.50,
+          "y2": 100.00,
+          "z1": -3.00,
+          "z2": 8.00
+        },
+        {
+          "x1": 0.00,
+          "x2": 0.00,
+          "y1": 0.00,
+          "y2": 0.00,
+          "z1": 0.00,
+          "z2": 0.00
+        }
+      ],
+      "num_static_boxes": 1,
+      "static_box": [
+        {
+          "x1": -30.00,
+          "x2": 30.00,
+          "y1": 0.50,
+          "y2": 100.00,
+          "z1": -3.00,
+          "z2": 8.00
+        },
+        {
+          "x1": 0.00,
+          "x2": 0.00,
+          "y1": 0.00,
+          "y2": 0.00,
+          "z1": 0.00,
+          "z2": 0.00
+        }
+      ]
+    },
+    "presence_params": {
+      "points_thre": 0,
+      "velocity_thre": 0.00,
+      "on2off_thre": 0,
+      "num_occupancy_boxes": 0,
+      "occupancy_box": [
+        {
+          "x1": 0.00,
+          "x2": 0.00,
+          "y1": 0.00,
+          "y2": 0.00,
+          "z1": 0.00,
+          "z2": 0.00
+        },
+        {
+          "x1": 0.00,
+          "x2": 0.00,
+          "y1": 0.00,
+          "y2": 0.00,
+          "z1": 0.00,
+          "z2": 0.00
+        }
+      ]
+    }
+  }
+}
